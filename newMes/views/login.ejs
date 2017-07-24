@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <div>
+        <p>
+            用户名：<input type="text" name="username" id="username">
+        </p>
+        <p>
+            密码：<input type="password" name="pwd" id="pwd">
+        </p>
+        <p>
+            <input type="button" value="登录" id="login">
+        </p>
+    </div>
+</form>
+<script src="/js/jquery.min.js"></script>
+</body>
+<script>
+    //给regist节点添加click事件
+    $("#login").on("click",function(){
+//        发送ajax
+        $.ajax({
+            url:"/doLogin",
+            type:"post",
+            data:{
+                "username":$("#username").val(),
+                "pwd":$("#pwd").val()
+            },
+            success:function(result){
+//                alert(result);
+                    alert(result);
+                    window.location.href="/";
+            }
+        })
+    })
+</script>
+</html>
