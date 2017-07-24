@@ -7,7 +7,7 @@ h2 {font-size:46px; font-weight:normal;}
 #block-firstPage{height:1000px; width:100%; background-color:#22B573; font-size: 100px; color:white; text-align: center;}
 .blockTitle{display:none; position:absolute; margin:0 auto; width:100%;}
 #fstPage-down{position:absolute; bottom:16px; height:18px; width:100%;}
-#fstPage-down a{display:block; height:18px; width:32px; margin:0 auto; background:url(./img/down.png) no-repeat center}
+#fstPage-down a{display:block; height:18px; width:32px; margin:0 auto; background:url(../img/down.jpg) no-repeat center}
 
 /* nav */
 #block-nav {position:relative; top:0; height:52px; background-color:#42474B; color:white; }
@@ -62,13 +62,13 @@ h2 {font-size:46px; font-weight:normal;}
 #block-prjEXP .prjEXP-title {width:300px; margin:30px auto; text-align:center;}
 #block-prjEXP .prjs {height:auto; width:100%; margin-top:100px; overflow:hidden;}
 #block-prjEXP .prj {float:left; height:auto; width:240px; margin-left:105px;}
-#block-prjEXP .prj .prj-logo {display:block; margin:0 auto; height:180px; width:180px; border-radius:50%;}
-#block-prjEXP .prj .prj-title {height:auto; width:240px; margin:20px 0; font-size:26px; text-align:center;}
-#block-prjEXP .prj .prj-intro {height:auto; width:240px; font-size:20px; text-indent:1em}
-#block-prjEXP #prj-helpmechoose .prj-logo   {background:#ED6461 url(../img/helpmechoose.png) no-repeat center; border:4px solid #FFFFFF;}
+#block-prjEXP .prj .prj-logo{display:block; margin:0 auto; height:180px; width:180px; border-radius:50%;}
+#block-prjEXP .prj .prj-title{height:auto; width:240px; margin:20px 0; font-size:26px; text-align:center;}
+#block-prjEXP .prj .prj-intro{height:auto; width:240px; font-size:20px; text-indent:1em}
+#block-prjEXP #prj-helpmechoose .prj-logo{background:#ED6461 url(../img/helpmechoose.jpg) no-repeat center; border:4px solid #FFFFFF;}
 #block-prjEXP #prj-navFixed .prj-title a:hover{border-bottom:3px solid white;}
-#block-prjEXP #prj-navFixed .prj-logo       {background:#9C58B6 url(../img/navFixed.png) no-repeat center; border:4px solid #FFFFFF;}
-#block-prjEXP #prj-integralSystem .prj-logo {background:#16CC70 url(../img/integralSystem.png) no-repeat center; border:4px solid #FFFFFF;}
+#block-prjEXP #prj-navFixed .prj-logo{background:#9C58B6 url(../img/navFixed.jpg) no-repeat center; border:4px solid #FFFFFF;}
+#block-prjEXP #prj-integralSystem .prj-logo{background:#16CC70 url(../img/integralSystem.jpg) no-repeat center; border:4px solid #FFFFFF;}
 
 /* block-wantMore */
 #block-wantMore {width:100%; background-color:#ED6461; color:#fff;}
